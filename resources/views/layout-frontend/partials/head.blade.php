@@ -1,12 +1,12 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>Insam.tutorascourses</title>
+<title>Admin | Insam Tutorias</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="{{ asset('/assets-frontend/images/favicon.ico') }}">
+<link rel="shortcut icon" href="{{ asset('/assets-admin/images/favicon.ico') }}">
 
 
 <!-- Google Fonts -->

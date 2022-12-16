@@ -60,7 +60,7 @@
     <section id="hero" class="d-flex justify-content-center align-items-center">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
             <h1>Apprendre Aujourd'hui,<br>Apprendre Demain</h1>
-            <h2>Nous sommes une institut de formation dans le monde des expères</h2>
+            <h2>Nous sommes une institut de formation dans le monde des espères !</h2>
             <a href="/courses" class="btn-get-started">commencer</a>
         </div>
     </section><!-- End Hero -->

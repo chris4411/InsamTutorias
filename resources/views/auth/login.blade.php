@@ -3,7 +3,6 @@
     <div class="home-btn d-none d-sm-block">
         <a href="index-2.html"></a>
     </div>
-<<<<<<< HEAD
     <div class="account-pages my-5 pt-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -12,35 +11,14 @@
                         <div class="card-body">
                             <div class="text-center mt-4">
                                 <div class="mb-3">
-                                    <a href="dashboard" class="d-">
-=======
-        <div class="account-pages my-5 pt-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 col-xl-5">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="text-center mt-4">
-                                    <div class="mb-3">
-                                        <a href="index-2.html" class="">
-                                            <img src="{{ asset('assets-admin/images/logo-dark.png') }}" alt="" height="22" class="auth-logo logo-dark mx-auto">
-                                            <img src="{{ asset('assets-admin/images/logo-light.png') }}" alt="" height="22" class="auth-logo logo-light mx-auto">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-3">
-                                    <h4 class="font-size-18 text-muted mt-2 text-center">Welcome Back !</h4>
-                                    <p class="text-muted text-center mb-4">Sign in to continue to upbond.</p>
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23
+                                    <a href="/login">
 
-
-                                        <div class=" mt-3 ">
-                                            <img src="{{ asset('/assets/images/logo-sm-dark.png') }}" alt="logo-dark"
-                                                height="27">
-                                            <p style=" font-size:2em">INSAM</p>
-
+                                        <span class="logo-lg">
+                                            <img src="{{ asset('/assets-admin/images/logo-sm-dark.png') }}" alt="logo-dark"
+                                                height="22">
+                                        </span>
+                                        <p style=" font-size:2em">INSAM</p>
                                     </a>
-
                                 </div>
                             </div>
                             <div class="p-3">

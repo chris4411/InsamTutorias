@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\SendEmailController;
 use App\Http\Controllers\User\PostController;
 
-Route::get('/front', function () {
+Route::get('/', function () {
     return view('site.index');
 
 });
