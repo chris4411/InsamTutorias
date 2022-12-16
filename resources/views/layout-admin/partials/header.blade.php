@@ -3,36 +3,14 @@
         <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                <a href="dashboard" class="d-flex logo logo-dark">
+                <a href="index-2.html" class="logo logo-dark d-flex">
 
+                    <span class="logo-lg">
+                        <img src="{{ asset('/assets-admin/images/logo-sm-dark.png') }}" alt="logo-dark" height="22">
+                    </span>
+                    <p style="margin-left: 5px; font-size:1.5em">INSAM</p>
+                </a>
 
-                    <span class="logo-ls">
-                        <img src="{{ asset('/assets/images/logo-sm-dark.png') }}" alt="logo-dark" height="27">
-                        <a href="index-2.html" class="logo logo-dark">
-                            <span class="logo-sm">
-                                <img src="{{ asset('/assets-admin/images/logo-sm-dark.png') }}" alt="logo-sm-dark"
-                                    height="22">
-                            </span>
-                            <span class="logo-lg">
-                                <img src="{{ asset('/assets-admin/images/logo-dark.png') }}" alt="logo-dark"
-                                    height="22">
-                            </span>
-
-                            <p style="margin-left: 4px; font-size:2em">INSAM</p>
-
-                        </a>
-
-                        <a href="dashboard" class="logo logo-light">
-                            <span class="logo-sm">
-                                <img src="{{ asset('/assets-admin/images/logo-sm-light.png') }}" alt="logo-sm-light"
-                                    height="22">
-                            </span>
-                            <span class="logo-lg">
-
-                                <img src="{{ asset('/assets-admin/images/logo-light.png') }}" alt="logo-light"
-                                    height="22">
-                            </span>
-                        </a>
             </div>
 
             <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
@@ -200,11 +178,10 @@
 
         <div class="d-flex">
             <div class="dropdown d-inline-block d-lg-none">
-                <button type="button" class="btn header-item noti-icon waves-effect"
-                    id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
+                <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="top-icon">
-                        <i class="ri-search-line"></i>
+                        <i class="text-success ri-search-line"></i>
                     </div>
 
                 </button>
@@ -212,7 +189,7 @@
                     aria-labelledby="page-header-search-dropdown">
                     <form class="p-3">
                         <div class="m-0">
-                            <div class="input-group">
+                            <div class="input-group text-success">
                                 <input type="text" class="form-control" placeholder="Search ...">
                                 <button class="btn btn-primary" type="submit"><i
                                         class="ri-search-line"></i></button>
@@ -227,7 +204,7 @@
             <div class="dropdown d-none d-lg-inline-block">
                 <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    <div class="top-icon text-success">
+                    <div class="top-icon">
                         <i class="mdi mdi-apps text-success"></i>
                     </div>
                 </button>
@@ -282,7 +259,7 @@
             <!-- end -->
 
             <div class="dropdown d-none d-lg-inline-block">
-                <button type="button" class="btn header-item noti-icon waves-effect " data-toggle="fullscreen">
+                <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
                     <div class="top-icon">
                         <i class="mdi mdi-fullscreen text-success"></i>
                     </div>
@@ -291,7 +268,7 @@
             <!-- end  -->
 
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item noti-icon waves-effect "
+                <button type="button" class="btn header-item noti-icon waves-effect"
                     id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     <div class="top-icon">
                         <i class="mdi mdi-bell text-success"></i>
@@ -329,8 +306,6 @@
                         </a>
                         <a href="#" class="text-reset notification-item">
                             <div class="d-flex">
-                                <img src="{{ asset('/assets/images/users/avatar-3.jpg') }}"
-                                    class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                 <img src="{{ asset('/assets-admin/images/users/avatar-3.jpg') }}"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                 <div class="flex-1">
@@ -361,19 +336,15 @@
 
                         <a href="#" class="text-reset notification-item">
                             <div class="d-flex">
-                                <<<<<<< HEAD:resources/views/layout/partials/header.blade.php <img
-                                    src="{{ asset('/assets/images/users/avatar-4.jpg') }}"
+                                <img src="{{ asset('/assets-admin/images/users/avatar-4.jpg') }}"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
-                                    =======
-                                    <img src="{{ asset('/assets-admin/images/users/avatar-4.jpg') }}"
-                                        class="me-3 rounded-circle avatar-xs" alt="user-pic">
-                                    <div class="flex-1">
-                                        <h6 class="mt-0 mb-1">Salena Layfield</h6>
-                                        <div class="font-size-12 text-muted">
-                                            <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
-                                            <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
-                                        </div>
+                                <div class="flex-1">
+                                    <h6 class="mt-0 mb-1">Salena Layfield</h6>
+                                    <div class="font-size-12 text-muted">
+                                        <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
                                     </div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -389,36 +360,31 @@
             <!-- end notification -->
 
             <div class="dropdown d-inline-block user-dropdown">
-                <<<<<<< HEAD:resources/views/layout/partials/header.blade.php <button type="button"
-                    class="btn header-item waves-effect" id="page-header-user-dropdown" onclick="logout();"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                    onclick="logout();" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user"
-                        src="{{ asset('/assets/images/users/avatar-7.jpg') }}" alt="Header Avatar">
-                    <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
-                        onclick="logout();" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="rounded-circle header-profile-user"
-                            src="{{ asset('/assets-admin/images/users/avatar-7.jpg') }}" alt="Header Avatar">
-                        <span class="d-none d-xl-inline-block ms-1">Malvika</span>
-                        <i class="mdi mdi-chevron-down d-none d-xl-inline-block text-success"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-end">
-                        <!-- item-->
-                        <a class="dropdown-item" href="#"><i class="ri-user-line align-middle me-1"></i>
-                            Profile</a>
-                        <a class="dropdown-item d-block" href="#"><span
-                                class="badge bg-success float-end mt-1">11</span><i
-                                class="ri-settings-2-line align-middle me-1"></i> Settings</a>
-                        <a class="dropdown-item" href="{{ route('lock.screen') }}"><i
-                                class="ri-lock-unlock-line align-middle me-1"></i> Lock
-                            screen</a>
-                        <div class="dropdown-divider"></div>
-                        <form action="{{ route('logout') }}" method="POST" id="form-loagout">
-                            @csrf
-                            <button class="dropdown-item text-danger logout-btn">
-                                <i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout
-                            </button>
-                        </form>
-                    </div>
+                        src="{{ asset('/assets-admin/images/users/avatar-7.jpg') }}" alt="Header Avatar">
+                    <span class="d-none d-xl-inline-block ms-1 text-success">Malvika</span>
+                    <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <!-- item-->
+                    <a class="dropdown-item" href="#"><i class="ri-user-line align-middle me-1"></i>
+                        Profile</a>
+                    <a class="dropdown-item d-block" href="#"><span
+                            class="badge bg-success float-end mt-1">11</span><i
+                            class="ri-settings-2-line align-middle me-1"></i> Settings</a>
+                    <a class="dropdown-item" href="{{ route('lock.screen') }}"><i
+                            class="ri-lock-unlock-line align-middle me-1"></i> Lock
+                        screen</a>
+                    <div class="dropdown-divider"></div>
+                    <form action="{{ route('logout') }}" method="POST" id="form-loagout">
+                        @csrf
+                        <button class="dropdown-item text-danger logout-btn">
+                            <i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout
+                        </button>
+                    </form>
+                </div>
             </div>
             <!-- end user -->
 

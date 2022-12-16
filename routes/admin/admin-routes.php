@@ -2,18 +2,13 @@
 /**
  * Controllers
  */
-use App\Http\Controllers\Auth\AuthController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
 
 
 // Controllers
 
-use App\Http\Controllers\Admin\VenderAdminController;
 use App\Http\Controllers\Admin\ClientAdminController;
-use App\Http\Controllers\Admin\BoutiqueAdminController;
 use App\Http\Controllers\Admin\ProduitController;
-use App\Http\Controllers\Admin\EmployeeController;
 use App\Http\Controllers\Admin\StripeController;
 
 /**
@@ -27,21 +22,6 @@ Route::post('stripe', [StripeController::class, 'stripePost'])->name('stripe.pos
 
 Route::prefix('dashbord')->group(function () {
 
-    // ====================== Home =======================
-    Route::get('/', [AuthController::class,'home'])->name('dashbord');
-
-
-    // ===================   Vendeur ==========================
-
-    Route::prefix('/vendeur')->group(function () {
-        Route::get('/', [VenderAdminController::class,'index'])->name('vendeur_index');
-        Route::get('/show/{id}',[VenderAdminController::class,'show'])->name('vendeur_show');
-        Route::get('/edite/{id}',[VenderAdminController::class,'edit'])->name('vendeur_edite');
-        Route::get('/create',[VenderAdminController::class,'create'])->name('vendeur_create');
-        Route::post('/store',[VenderAdminController::class,'store'])->name('vendeur_store');
-        Route::post('/update',[VenderAdminController::class,'update'])->name('vendeur_update');
-        Route::get('/delete/{id}',[VenderAdminController::class,'destroy'])->name('vendeur_delete');
-    });
 
 
      // ===================   Client ==========================

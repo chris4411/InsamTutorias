@@ -15,18 +15,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\SendEmailController;
 use App\Http\Controllers\User\PostController;
 
-
-
-
-
-
-Route::get('/', [PostController::class, 'index' ])->name('index');
-Route::get('/courses', [PostController::class, 'courses' ])->name('courses');
-Route::get('/about', [PostController::class, 'about' ])->name('about');
-Route::get('/contact', [PostController::class, 'contact' ])->name('contact');
-
-Route::post('send-email', [SendEmailController::class, 'index'])->name('send.email');
-
 Route::get('/front', function () {
     return view('site.index');
 

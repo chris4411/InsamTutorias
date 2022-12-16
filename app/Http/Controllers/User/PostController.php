@@ -13,15 +13,15 @@ class PostController extends Controller
     }
     public function courses()
     {
-        return view('pages.courses');
+        return view('layout-frontend.pages.courses');
     }
     public function about()
     {
-        return view('pages.about');
+        return view('layout-frontend.pages.about');
     }
     public function contact()
     {
-        return view('pages.contact');
+        return view('layout-frontend.pages.contact');
     }
 
 

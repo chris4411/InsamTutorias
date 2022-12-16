@@ -1,29 +1,28 @@
 <meta charset="utf-8">
-<title>Cartzilla | Multipurpose Bootstrap E-commerce Template</title>
-<!-- SEO Meta Tags-->
-<meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
-<meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
-<meta name="author" content="Createx Studio">
-<!-- Viewport-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Favicon and Touch Icons-->
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-<!-- Vendor Styles including: Font Icons, Plugins, etc.-->
-<link rel="stylesheet" media="screen" href="{{ asset('/assets-frontend/vendor/simplebar/dist/simplebar.min.css') }}"/>
-<link rel="stylesheet" media="screen" href="{{ asset('/assets-frontend/vendor/tiny-slider/dist/tiny-slider.css') }}"/>
-<!-- Main Theme Styles + Bootstrap-->
-<link rel="stylesheet" media="screen" href="{{ asset('/assets-frontend/css/theme.min.css') }}">
-<!-- Google Tag Manager-->
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WKV3GT5');
-</script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Insam.tutorascourses</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="{{ asset('/assets-frontend/images/favicon.ico') }}">
+
+
+<!-- Google Fonts -->
+<link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets-frontend/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets-frontend/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets-frontend/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets-frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets-frontend/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets-frontend/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets-frontend/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets-frontend/vendor/flag-icon-css/flag-icons.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="assets-frontend/css/style.css" rel="stylesheet">

@@ -1,6 +1,11 @@
-<script src="{{ asset('assets-frontend/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets-frontend/vendor/simplebar/dist/simplebar.min.js') }}"></script>
-    <script src="{{ asset('assets-frontend/vendor/tiny-slider/dist/min/tiny-slider.js') }}"></script>
-    <script src="{{ asset('assets-frontend/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js') }}"></script>
-    <!-- Main theme script-->
-    <script src="{{ asset('assets-frontend/js/theme.min.js') }}"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets-frontend/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets-frontend/vendor/aos/aos.js"></script>
+  <script src="assets-frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets-frontend/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets-frontend/vendor/php-email-form/validate.js"></script>
+
+
+
+  <!-- Template Main JS File -->
+  <script src="assets-frontend/js/main.js"></script>

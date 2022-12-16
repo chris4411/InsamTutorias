@@ -646,7 +646,7 @@
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="me-3">
-                                                        <img src="assets/images/users/avatar-1.jpg"
+                                                        <img src="assets-admin/images/users/avatar-1.jpg"
                                                             class="avatar-xs h-auto rounded-circle" alt="Error">
                                                     </div>
                                                     <div>
@@ -705,7 +705,7 @@
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="me-3">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="assets-admin/images/users/avatar-2.jpg"
                                                             class="avatar-xs h-auto rounded-circle" alt="Error">
                                                     </div>
                                                     <div>
@@ -764,7 +764,7 @@
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="me-3">
-                                                        <img src="assets/images/users/avatar-3.jpg"
+                                                        <img src="assets-admin/images/users/avatar-3.jpg"
                                                             class="avatar-xs h-auto rounded-circle" alt="Error">
                                                     </div>
                                                     <div>
@@ -823,7 +823,7 @@
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="me-3">
-                                                        <img src="assets/images/users/avatar-4.jpg"
+                                                        <img src="assets-admin/images/users/avatar-4.jpg"
                                                             class="avatar-xs h-auto rounded-circle" alt="Error">
                                                     </div>
                                                     <div>
@@ -881,7 +881,7 @@
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="me-3">
-                                                        <img src="assets/images/users/avatar-5.jpg"
+                                                        <img src="assets-admin/images/users/avatar-5.jpg"
                                                             class="avatar-xs h-auto rounded-circle" alt="Error">
                                                     </div>
                                                     <div>
@@ -1002,8 +1002,8 @@
                                             <td>
                                                 <div class="avatar-sm">
                                                     <span class="avatar-title rounded bg-light">
-                                                        <img src="assets/images/product/img-11.png" class="avatar-sm"
-                                                            alt="Error">
+                                                        <img src="assets-admin/images/product/img-11.png"
+                                                            class="avatar-sm" alt="Error">
                                                     </span>
                                                 </div>
                                             </td>
@@ -1035,7 +1035,7 @@
                                             <td>
                                                 <div class="avatar-sm">
                                                     <span class="avatar-title rounded bg-light">
-                                                        <img src="assets/images/product/img-9.png" class="avatar-sm"
+                                                        <img src="assets-admin/images/product/img-9.png" class="avatar-sm"
                                                             alt="Error">
                                                     </span>
                                                 </div>
@@ -1068,7 +1068,7 @@
                                             <td>
                                                 <div class="avatar-sm">
                                                     <span class="avatar-title rounded bg-light">
-                                                        <img src="assets/images/product/img-1.png" class="avatar-sm"
+                                                        <img src="assets-admin/images/product/img-1.png" class="avatar-sm"
                                                             alt="Error">
                                                     </span>
                                                 </div>
@@ -1101,7 +1101,7 @@
                                             <td>
                                                 <div class="avatar-sm">
                                                     <span class="avatar-title rounded bg-light">
-                                                        <img src="assets/images/product/img-4.png" class="avatar-sm"
+                                                        <img src="assets-admin/images/product/img-4.png" class="avatar-sm"
                                                             alt="Error">
                                                     </span>
                                                 </div>
@@ -1134,7 +1134,7 @@
                                             <td>
                                                 <div class="avatar-sm">
                                                     <span class="avatar-title rounded bg-light">
-                                                        <img src="assets/images/product/img-3.png" class="avatar-sm"
+                                                        <img src="assets-admin/images/product/img-3.png" class="avatar-sm"
                                                             alt="Error">
                                                     </span>
                                                 </div>

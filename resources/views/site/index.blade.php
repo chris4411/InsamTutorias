@@ -1,188 +1,342 @@
 @extends('layout-frontend.mainlayout')
 @section('content')
-    <!-- Demos section-->
-<section class="container pt-5 pb-3 pb-lg-5" id="demos">
-    <div class="text-center pt-md-4 pb-2">
-      <h2><span class='fw-light'>Explore</span> Cartzilla Demos</h2>
-      <p class="text-muted">Explore the collection of carefully built homepages. More to come soon!</p>
-    </div>
-    <div class="row pt-4">
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-nft.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-nft.html"></a><img src="{{ asset('assets-frontend/img/home/preview/08.jpg') }}" alt="NFT Marketplace">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-nft.html">NFT Marketplace</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-fashion-store-v1.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-fashion-store-v1.html"></a><img src="{{ asset('assets-frontend/img/home/preview/01.jpg') }}" alt="Fashion Store v.1">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-fashion-store-v1.html">Fashion Store v.1</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-electronics-store.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-electronics-store.html"></a><img src="{{ asset('assets-frontend/img/home/preview/03.jpg') }}" alt="Electronics Store">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-electronics-store.html">Electronics Store</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-food-delivery.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-food-delivery.html"></a><img src="{{ asset('assets-frontend/img/home/preview/07.jpg') }}" alt="Food Delivery Service">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-food-delivery.html">Food Delivery Service</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-marketplace.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-marketplace.html"></a><img src="{{ asset('assets-frontend/img/home/preview/04.jpg') }}" alt="Multi-vendor Marketplace">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-marketplace.html">Multi-vendor Marketplace</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-grocery-store.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-grocery-store.html"></a><img src="{{ asset('assets-frontend/img/home/preview/06.jpg') }}" alt="Grocery Store">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-grocery-store.html">Grocery Store</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-fashion-store-v2.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-fashion-store-v2.html"></a><img src="{{ asset('assets-frontend/img/home/preview/02.jpg') }}" alt="Fashion Store v.2">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-fashion-store-v2.html">Fashion Store v.2</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-4">
-        <div class="card product-card-alt">
-          <div class="product-thumb border">
-            <div class="product-card-actions"><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="home-single-store.html"><i class="ci-eye"></i></a><a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener"><i class="ci-cart"></i></a></div><a class="product-thumb-overlay" href="home-single-store.html"></a><img src="{{ asset('assets-frontend/img/home/preview/05.jpg') }}" alt="Single Product / Brand Store">
-          </div>
-          <div class="card-body text-center">
-            <h3 class="product-title fs-lg pt-2"><a href="home-single-store.html">Single Product / Brand Store</a></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Cartzilla pages section-->
-  <section class="bg-dark py-5">
-    <div class="container py-3 py-lg-4">
-      <div class="row align-items-center">
-        <div class="col-xl-4 col-lg-5 pb-4 pb-lg-0">
-          <h2 class="text-light"><span class='fw-light'>Complete</span> E-Commerce Front-End <span class='fw-light'>Solution</span></h2>
-          <p class="text-light opacity-70">All you need for your next e-commerce project</p>
-          <ul class="text-light list-unstyled pt-3">
-            <li><i class="ci-check-circle text-success me-2"></i>Shop Grid / List Layout Options</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Multiple Product Page Variations</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Complete Order Workflow: Cart + Checkout</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Shop Customer Account Pages</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Vendor Dashboard for Multi-vendor Marketplaces</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Ready for any Content: Fashion, Electronics, Digital (Downloadable) Products, etc.</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Blog Pages: Blog Layouts + Single Post</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Help Center / Support Pages</li>
-            <li><i class="ci-check-circle text-success me-2"></i>Secondary Pages: About, Contacts, 404, etc.</li>
-            <li><i class="ci-check-circle text-success me-2"></i>40+ Flexible Components</li>
-          </ul>
-        </div>
-        <div class="col-lg-7 offset-xl-1"><img src="{{ asset('assets-frontend/img/intro/pages-showcase.jpg') }}" alt="Cartzilla pages"></div>
-      </div>
-    </div>
-  </section>
-  <!-- Cartzill handheld toolbar-->
-  <section class="bg-secondary py-4">
-    <div class="container pt-4 pt-md-0">
-      <div class="row align-items-center">
-        <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 text-center text-md-left"><span class="badge badge-info fs-sm mb-4">From v1.2</span>
-          <h2><span class='fw-light'>Even More</span> Mobile Friendly <span class='fw-light'>Interface</span></h2>
-          <p class="text-muted pb-2">New <span class='fw-medium'>Toolbar</span> designed specifically for handheld devices to further improve user experience.</p>
-          <p class="fs-sm">Scan QR code below to test on your device:</p><img src="{{ asset('assets-frontend/img/intro/qrcode.png') }}" width="150" alt="QR code">
-        </div>
-        <div class="col-md-6"><img class="d-block mx-auto" src="{{ asset('assets-frontend/img/intro/handheld-toolbar.jpg') }}" alt="Toolbar"></div>
-      </div>
-    </div>
-  </section>
-  <!-- Cartzilla features section-->
-  <section class="py-5">
-    <div class="container py-3 py-lg-4">
-      <h2 class="text-center mb-4">Cartzilla Feature <span class='fw-light'>Highlights</span></h2>
-      <div class="row text-center pt-4">
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/01.png') }}" width="90" alt="Gulp icon">
-          <h6>Kick-start Your Development</h6>
-          <p class="fs-ms text-muted mb-0">Start your development process fast and easy with Node.js and Gulp setup. Configuration files are included in download package. Full tasks automation.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/02.png') }}" width="90" alt="Sass icon">
-          <h6>Easy to Customize with Sass</h6>
-          <p class="fs-ms text-muted mb-0">Cartzilla is built using Sass. Easily change colors, typography and much more. It is the most mature, stable, and powerful CSS extension language in the world.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/03.png') }}" width="90" alt="Pug icon">
-          <h6>Pug - Node Templating Engine</h6>
-          <p class="fs-ms text-muted mb-0">No need to write huge amount of HTML, if you don’t want to. Pug provides features not available in plain HTML like variables, includes, mixins, functions, etc.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/04.png') }}" width="90" alt="Bootstrap icon">
-          <h6>Built With Bootstrap 5</h6>
-          <p class="fs-ms text-muted mb-0">Cartzilla is the powerful e-commerce front-end solution based on Bootstrap 5 - the world's most popular responsive, mobile-first front-end component library.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/05.png') }}" width="90" alt="Web Components icon">
-          <h6>40+ Flexible Components</h6>
-          <p class="fs-ms text-muted mb-0">Besides styling all default Bootstrap 5 components Cartzilla introduces lots of new flexible, customizable and reusable elements you can use across the website.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/06.png') }}" width="90" alt="Mobile Friendly icon">
-          <h6>Mobile Friendly Interface</h6>
-          <p class="fs-ms text-muted mb-0">It's not a surprise that nowadays over 70% of users shop online using their mobile devices. Cartzilla is 100% responsive and optimized for small touch screens.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/07.png') }}" width="90" alt="Google Fonts icon">
-          <h6>Google Fonts</h6>
-          <p class="fs-ms text-muted mb-0">Cartzilla uses Google fonts which are free, fast to load and of very high quality. Currently Google fonts library includes 870+ font families to choose from.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/08.png') }}" width="90" alt="Touch icon">
-          <h6>Touch-enabled Sliders</h6>
-          <p class="fs-ms text-muted mb-0">In the era of touch screens it's important to ensure great user experience on handheld devices, especially when it comes to such frequently used interface component as slider.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/09.png') }}" width="90" alt="Vector icon">
-          <h6>Vector Based HD Ready Icons</h6>
-          <p class="fs-ms text-muted mb-0">Cartzilla is equiped with font-based icon pack to ensure that infographics and interface icons look sharp on any device with any screen resolution and pixel density.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/10.png') }}" width="90" alt="HTML5 icon">
-          <h6>W3C Valid HTML Code</h6>
-          <p class="fs-ms text-muted mb-0">All HTML files are checked via W3C validator to ensure 100% valid code. As you probably know invalid HTML limits innovation, but Cartzilla is innovative at its core.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/11.png') }}" width="90" alt="JavaScript icon">
-          <h6>Future-proof JavaScript</h6>
-          <p class="fs-ms text-muted mb-0">Cartzilla core scripts as well as all dependencies are written in vanilla JS. And now with Bootstrap 5 we finally drops jQuery and uses ES6 modules.</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2"><img class="inline-block mb-3" src="{{ asset('assets-frontend/img/intro/features/12.png') }}" width="90" alt="Documentation icon">
-          <h6>Detailed Documentation</h6>
-          <p class="fs-ms text-muted mb-0">Download package includes links to online documentation. It covers all crucial information about how to get started, customize template and components usage.</p>
-        </div>
-      </div>
-      <h6 class="text-center">And much more...</h6>
-    </div>
-  </section>e
+    <div>
+        <div class="d-flex bubbles fixed-top">
+            <span style="--i:94;left:0%"></span>
+            <span style="--i:17;left:5%"></span>
+            <span style="--i:65;left:10%"></span>
+            <span style="--i:45;left:10%"></span>
+            <span style="--i:72;left:15%"></span>
+            <span style="--i:32;left:15%"></span>
+            <span style="--i:79;left:20%"></span>
+            <span style="--i:49;left:20%"></span>
+            <span style="--i:58;left:25%"></span>
+            <span style="--i:38;left:25%"></span>
+            <span style="--i:57;left:25%"></span>
+            <span style="--i:34;left:30%"></span>
+            <span style="--i:24;left:30%"></span>
+            <span style="--i:89;left:35%"></span>
+            <span style="--i:39;left:35%"></span>
+            <span style="--i:99;left:35%"></span>
+            <span style="--i:29;left:35%"></span>
+            <span style="--i:59;left:35%"></span>
+            <span style="--i:49;left:35%"></span>
+            <span style="--i:29;left:40%"></span>
+            <span style="--i:99;left:40%"></span>
+            <span style="--i:24;left:45%"></span>
+            <span style="--i:34;left:45%"></span>
+            <span style="--i:55;left:45%"></span>
+            <span style="--i:45;left:45%"></span>
+            <span style="--i:64;left:50%"></span>
+            <span style="--i:24;left:50%"></span>
+            <span style="--i:61;left:55%"></span>
+            <span style="--i:41;left:55%"></span>
+            <span style="--i:24;left:60%"></span>
+            <span style="--i:74;left:60%"></span>
+            <span style="--i:44;left:60%"></span>
+            <span style="--i:24;left:60%"></span>
+            <span style="--i:86;left:60%"></span>
+            <span style="--i:56;left:60%"></span>
+            <span style="--i:11;left:65%"></span>
+            <span style="--i:81;left:65%"></span>
+            <span style="--i:37;left:70%"></span>
+            <span style="--i:27;left:70%"></span>
+            <span style="--i:98;left:75%"></span>
+            <span style="--i:28;left:75%"></span>
+            <span style="--i:38;left:80%"></span>
+            <span style="--i:48;left:80%"></span>
+            <span style="--i:18;left:90%"></span>
+            <span style="--i:68;left:90%"></span>
+            <span style="--i:18;left:100%"></span>
 
+
+
+        </div>
+
+
+    </div>
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex justify-content-center align-items-center">
+        <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Apprendre Aujourd'hui,<br>Apprendre Demain</h1>
+            <h2>Nous sommes une institut de formation dans le monde des expères</h2>
+            <a href="/courses" class="btn-get-started">commencer</a>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-aos-delay="100">
+                        <img src="assets-frontend/img/school.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                        <h3>[ IUES / INSAM (INSTITUT UNIVERSITAIRE ET STRATÉGIQUE DE L'ESTUAIRE) ].</h3>
+                        <p class="fst-italic">
+                            IUEs/INSAM fait aujourd’hui partie des sept (07) instituts universitaire privés reconnus par le
+                            MINESUP. Notre groupe comprend plusieurs grandes écoles de formation universitaire et
+                            professionnelle, à savoir : EFPSA, INSAM, ISSAS et ISTE .
+                        </p>
+
+                        <p>
+                            Fondé en 2005, notre institut s’est progressivement agrandi. Et actuellement, fort de nos
+                            multiples partenariats avec des universités internationales, nous offrons plusieurs types de
+                            cursus. Nous octroyons également des bourses d’études pour les meilleurs étudiants, et notre
+                            collaboration avec de grandes écoles internationales nous a permis de lancer des spécialités
+                            avancées qui aboutissent à des Certifications.
+
+                            En tant que l’un des leaders sur le territoire camerounais, nous avons fait construire plusieurs
+                            campus à travers le territoire national et la sous-région. La diversité de nos filières et la
+                            qualité de nos produits font de nous l’un des acteurs majeurs pour l’amélioration de la qualité
+                            de notre environnement professionnel. Nous disposons d'une radio pour les étudiants qui nous
+                            sert également de support d'information et de communication
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <h3>Pour quoi choisir insam?</h3>
+                            <p>
+                                L'INSTITUT UNIVERSITAIRE ET STRATEGIQUE DE L'ESTUAIRE (IUEs/INSAM) est une
+                                institution d'enseignement supérieur qui regroupe quatre écoles : L'Institut Supérieur
+                                des Affaires et de Management (INSAM) L’Institut Supérieur de Technologies de l’Estuaire
+                                (ISTE)
+                                L’Institut Supérieur des Sciences Appliquées
+                                à la Santé (ISSAS) L’Ecole de Formation des Personnels Sanitaires (EFPSA)</p>
+                            <div class="text-center">
+                                <a href="https://doualatour.net/index.php?propub=5216&catalogue=8&id=position8"
+                                    class="more-btn">savoir plus <i class="bx bx-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-boxes d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bi bi-hospital "></i><br>
+                                        <h4>Medécine</h4>
+                                        <p>Entre autres multiples formations que nous offrons,
+                                            il y a les filières de santé qui peuvent être dispensées
+                                            soit en cycle universitaire classique, soit suivant notre formation
+                                            professionnalisante à travers notamment notre CPE (centre prépa-emploi).</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bi bi-person-workspace"></i>
+                                        <h4>Pré Emploi</h4>
+                                        <p>Le CPE ou club prépa-emploi est un centre de formation intégré
+                                            à notre école, et spécialisé dans la formation rapide (01 an) des
+                                            jeunes en quête de qualification professionnelle. Ce centre de
+                                            formation comprend plusieurs spécialités, et notamment les filières de santé,
+                                            d’industrie & technologie, de gestion, d’agriculture, etc.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bi bi-recycle"></i>
+                                        <h4>Cycles</h4>
+                                        <p>L’école a été plusieurs fois récompensée par le gouvernement
+                                            camerounais au titre de « Meilleur institut universitaire privé ».
+                                            Et pour redorer cette réputation, IUEs/INSAM ne cesse
+                                            d’innover et d’élargir sa gamme de formations, ainsi que ses cycles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .content-->
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Why Us Section -->
+
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="icon-box">
+                            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+                            <h3><a href="">Lorem Ipsum</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+                            <h3><a href="">Dolor Sitema</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                            <h3><a href="">Sed perspiciatis</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                            <h3><a href="">Magni Dolores</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+                            <h3><a href="">Nemo Enim</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                            <h3><a href="">Eiusmod Tempor</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                            <h3><a href="">Midela Teren</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+                            <h3><a href="">Pira Neve</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                            <h3><a href="">Dirada Pack</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-disc-line" style="color: #b20969;"></i>
+                            <h3><a href="">Moton Ideal</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                            <h3><a href="">Verdo Park</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                            <h3><a href="">Flavor Nivelanda</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Features Section -->
+
+        <!-- ======= Popular Courses Section ======= -->
+        <section id="popular-courses" class="courses">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Cours</h2>
+                    <p>Cours Populaires</p>
+                </div>
+
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="course-item">
+                            <video controls class="img-fluid">
+                                <source src="assets-frontend/img/v1.mp4" type=video/mp4>
+
+                            </video>"
+                            <div class="course-content">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4>Web Development</h4>
+                                </div>
+
+                                <h3><a href="course-details.html">Website Design</a></h3>
+                                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                    dolorem tempore.</p>
+                                <div class="trainer d-flex justify-content-between align-items-center">
+
+                                    <div class="trainer-rank d-flex align-items-center">
+                                        <i class="bx bx-user"></i>&nbsp;50
+                                        &nbsp;&nbsp;
+                                        <i class="bx bx-heart"></i>&nbsp;65
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Course Item-->
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="course-item">
+                            <img src="assets-frontend/img/course-2.jpg" class="img-fluid" alt="...">
+                            <div class="course-content">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4>Marketing</h4>
+                                </div>
+
+                                <h3><a href="course-details.html">Search Engine Optimization</a></h3>
+                                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                    dolorem tempore.</p>
+                                <div class="trainer d-flex justify-content-between align-items-center">
+
+                                    <div class="trainer-rank d-flex align-items-center">
+                                        <i class="bx bx-user"></i>&nbsp;35
+                                        &nbsp;&nbsp;
+                                        <i class="bx bx-heart"></i>&nbsp;42
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Course Item-->
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="course-item">
+                            <img src="assets-frontend/img/course-3.jpg" class="img-fluid" alt="...">
+                            <div class="course-content">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4>Content</h4>
+                                </div>
+
+                                <h3><a href="course-details.html">Copywriting</a></h3>
+                                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores
+                                    dolorem tempore.</p>
+                                <div class="trainer d-flex justify-content-between align-items-center">
+
+                                    <div class="trainer-rank d-flex align-items-center">
+                                        <i class="bx bx-user"></i>&nbsp;20
+                                        &nbsp;&nbsp;
+                                        <i class="bx bx-heart"></i>&nbsp;85
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Course Item-->
+
+                </div>
+
+            </div>
+        </section><!-- End Popular Courses Section -->
+    </main><!-- End #main -->
 @endsection
+
 <!-- End Page-content -->
