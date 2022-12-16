@@ -1,5 +1,5 @@
 <meta charset="utf-8" />
-<title>Auth | TutoriasInsam</title>
+<title>Auth | Tutorias Insam</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
 <meta content="Themesdesign" name="author" />
