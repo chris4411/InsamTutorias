@@ -3,38 +3,36 @@
         <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-<<<<<<< HEAD:resources/views/layout/partials/header.blade.php
                 <a href="dashboard" class="d-flex logo logo-dark">
 
 
                     <span class="logo-ls">
                         <img src="{{ asset('/assets/images/logo-sm-dark.png') }}" alt="logo-dark" height="27">
-=======
-                <a href="index-2.html" class="logo logo-dark">
-                    <span class="logo-sm">
-                        <img src="{{ asset('/assets-admin/images/logo-sm-dark.png') }}" alt="logo-sm-dark" height="22">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="{{ asset('/assets-admin/images/logo-dark.png') }}" alt="logo-dark" height="22">
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23:resources/views/layout-admin/partials/header.blade.php
-                    </span>
+                        <a href="index-2.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="{{ asset('/assets-admin/images/logo-sm-dark.png') }}" alt="logo-sm-dark"
+                                    height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="{{ asset('/assets-admin/images/logo-dark.png') }}" alt="logo-dark"
+                                    height="22">
+                            </span>
 
-                    <p style="margin-left: 4px; font-size:2em">INSAM</p>
+                            <p style="margin-left: 4px; font-size:2em">INSAM</p>
 
-                </a>
+                        </a>
 
-                <a href="dashboard" class="logo logo-light">
-                    <span class="logo-sm">
-                        <img src="{{ asset('/assets-admin/images/logo-sm-light.png') }}" alt="logo-sm-light" height="22">
-                    </span>
-                    <span class="logo-lg">
-<<<<<<< HEAD:resources/views/layout/partials/header.blade.php
+                        <a href="dashboard" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="{{ asset('/assets-admin/images/logo-sm-light.png') }}" alt="logo-sm-light"
+                                    height="22">
+                            </span>
+                            <span class="logo-lg">
 
-=======
-                        <img src="{{ asset('/assets-admin/images/logo-light.png') }}" alt="logo-light" height="22">
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23:resources/views/layout-admin/partials/header.blade.php
-                    </span>
-                </a>
+                                <img src="{{ asset('/assets-admin/images/logo-light.png') }}" alt="logo-light"
+                                    height="22">
+                            </span>
+                        </a>
             </div>
 
             <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
@@ -185,8 +183,8 @@
                                 <!-- end col -->
                                 <div class="col-sm-5">
                                     <div>
-                                        <img src="{{ asset('/assets-admin/images/megamenu-img.png') }}" alt="megamenu-img"
-                                            class="img-fluid mx-auto d-block">
+                                        <img src="{{ asset('/assets-admin/images/megamenu-img.png') }}"
+                                            alt="megamenu-img" class="img-fluid mx-auto d-block">
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -202,8 +200,9 @@
 
         <div class="d-flex">
             <div class="dropdown d-inline-block d-lg-none">
-                <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn header-item noti-icon waves-effect"
+                    id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <div class="top-icon">
                         <i class="ri-search-line"></i>
                     </div>
@@ -243,7 +242,8 @@
                             </div>
                             <div class="col">
                                 <a class="dropdown-icon-item" href="#">
-                                    <img src="{{ asset('/assets-admin/images/brands/bitbucket.png') }}" alt="bitbucket">
+                                    <img src="{{ asset('/assets-admin/images/brands/bitbucket.png') }}"
+                                        alt="bitbucket">
                                     <span>Bitbucket</span>
                                 </a>
                             </div>
@@ -264,7 +264,8 @@
                             </div>
                             <div class="col">
                                 <a class="dropdown-icon-item" href="#">
-                                    <img src="{{ asset('/assets-admin/images/brands/mail_chimp.png') }}" alt="mail_chimp">
+                                    <img src="{{ asset('/assets-admin/images/brands/mail_chimp.png') }}"
+                                        alt="mail_chimp">
                                     <span>Mail Chimp</span>
                                 </a>
                             </div>
@@ -328,13 +329,10 @@
                         </a>
                         <a href="#" class="text-reset notification-item">
                             <div class="d-flex">
-<<<<<<< HEAD:resources/views/layout/partials/header.blade.php
                                 <img src="{{ asset('/assets/images/users/avatar-3.jpg') }}"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
-=======
-                                <img src="{{ asset('/assets-admin/images/users/avatar-3.jpg') }}" class="me-3 rounded-circle avatar-xs"
-                                    alt="user-pic">
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23:resources/views/layout-admin/partials/header.blade.php
+                                <img src="{{ asset('/assets-admin/images/users/avatar-3.jpg') }}"
+                                    class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                 <div class="flex-1">
                                     <h6 class="mt-0 mb-1">James Lemire</h6>
                                     <div class="font-size-12 text-muted">
@@ -363,20 +361,19 @@
 
                         <a href="#" class="text-reset notification-item">
                             <div class="d-flex">
-<<<<<<< HEAD:resources/views/layout/partials/header.blade.php
-                                <img src="{{ asset('/assets/images/users/avatar-4.jpg') }}"
+                                <<<<<<< HEAD:resources/views/layout/partials/header.blade.php <img
+                                    src="{{ asset('/assets/images/users/avatar-4.jpg') }}"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
-=======
-                                <img src="{{ asset('/assets-admin/images/users/avatar-4.jpg') }}" class="me-3 rounded-circle avatar-xs"
-                                    alt="user-pic">
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23:resources/views/layout-admin/partials/header.blade.php
-                                <div class="flex-1">
-                                    <h6 class="mt-0 mb-1">Salena Layfield</h6>
-                                    <div class="font-size-12 text-muted">
-                                        <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                    =======
+                                    <img src="{{ asset('/assets-admin/images/users/avatar-4.jpg') }}"
+                                        class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                    <div class="flex-1">
+                                        <h6 class="mt-0 mb-1">Salena Layfield</h6>
+                                        <div class="font-size-12 text-muted">
+                                            <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
+                                            <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                         </a>
                     </div>
@@ -392,38 +389,36 @@
             <!-- end notification -->
 
             <div class="dropdown d-inline-block user-dropdown">
-<<<<<<< HEAD:resources/views/layout/partials/header.blade.php
-                <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
-                    onclick="logout();" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <<<<<<< HEAD:resources/views/layout/partials/header.blade.php <button type="button"
+                    class="btn header-item waves-effect" id="page-header-user-dropdown" onclick="logout();"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user"
                         src="{{ asset('/assets/images/users/avatar-7.jpg') }}" alt="Header Avatar">
-=======
-                <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" onclick="logout();"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="{{ asset('/assets-admin/images/users/avatar-7.jpg') }}"
-                        alt="Header Avatar">
->>>>>>> 3364bd0f010929c9ded82a99de706b6be8bb1f23:resources/views/layout-admin/partials/header.blade.php
-                    <span class="d-none d-xl-inline-block ms-1">Malvika</span>
-                    <i class="mdi mdi-chevron-down d-none d-xl-inline-block text-success"></i>
-                </button>
-                <div class="dropdown-menu dropdown-menu-end">
-                    <!-- item-->
-                    <a class="dropdown-item" href="#"><i class="ri-user-line align-middle me-1"></i>
-                        Profile</a>
-                    <a class="dropdown-item d-block" href="#"><span
-                            class="badge bg-success float-end mt-1">11</span><i
-                            class="ri-settings-2-line align-middle me-1"></i> Settings</a>
-                    <a class="dropdown-item" href="{{ route('lock.screen') }}"><i
-                            class="ri-lock-unlock-line align-middle me-1"></i> Lock
-                        screen</a>
-                    <div class="dropdown-divider"></div>
-                    <form action="{{ route('logout') }}" method="POST" id="form-loagout">
-                        @csrf
-                        <button class="dropdown-item text-danger logout-btn">
-                            <i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout
-                        </button>
-                    </form>
-                </div>
+                    <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                        onclick="logout();" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle header-profile-user"
+                            src="{{ asset('/assets-admin/images/users/avatar-7.jpg') }}" alt="Header Avatar">
+                        <span class="d-none d-xl-inline-block ms-1">Malvika</span>
+                        <i class="mdi mdi-chevron-down d-none d-xl-inline-block text-success"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <!-- item-->
+                        <a class="dropdown-item" href="#"><i class="ri-user-line align-middle me-1"></i>
+                            Profile</a>
+                        <a class="dropdown-item d-block" href="#"><span
+                                class="badge bg-success float-end mt-1">11</span><i
+                                class="ri-settings-2-line align-middle me-1"></i> Settings</a>
+                        <a class="dropdown-item" href="{{ route('lock.screen') }}"><i
+                                class="ri-lock-unlock-line align-middle me-1"></i> Lock
+                            screen</a>
+                        <div class="dropdown-divider"></div>
+                        <form action="{{ route('logout') }}" method="POST" id="form-loagout">
+                            @csrf
+                            <button class="dropdown-item text-danger logout-btn">
+                                <i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout
+                            </button>
+                        </form>
+                    </div>
             </div>
             <!-- end user -->
 
