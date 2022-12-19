@@ -9,17 +9,17 @@
 return [
     'ADMINISTRATOR_LIST' => [
         [
-            'first_name' =>  'Roslyn',
-            'last_name' =>  'TEMAETU',
-            'email' => 'roslyn@gmail.com',
+            'first_name' =>  'fiacre',
+            'last_name' =>  'NGOUANG',
+            'email' => 'fiacre@gmail.com',
             'email_verified_at' => now(),
             'password' => "",
             'remember_token' => "",
         ],
         [
-            'first_name' =>  'Benoit',
-            'last_name' =>  'AZANGUEZET',
-            'email' => 'azanguezet@gmail.com',
+            'first_name' =>  'chris',
+            'last_name' =>  'INC',
+            'email' => 'chris@gmail.com',
             'email_verified_at' => now(),
             'password' => "",
             'remember_token' => "",

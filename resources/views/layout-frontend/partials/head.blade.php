@@ -8,6 +8,22 @@
 <!-- Favicons -->
 <link rel="shortcut icon" href="{{ asset('/assets-admin/images/favicon.ico') }}">
 
+<link rel="shortcut icon" href="{{ asset('/assets-admin/images/favicon.ico') }}">
+
+<!-- DataTables -->
+<link href="{{ asset('/assets-admin/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet"
+    type="text/css" />
+
+<!-- Responsive datatable examples -->
+<link href="{{ asset('/assets-admin/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}"
+    rel="stylesheet" type="text/css" />
+
+<!-- Bootstrap Css -->
+<link href="{{ asset('/assets-admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+<!-- Icons Css -->
+<link href="{{ asset('/assets-admin/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="{{ asset('/assets-admin/css/app.min.css') }}" rel="stylesheet" type="text/css" />
 
 <!-- Google Fonts -->
 <link

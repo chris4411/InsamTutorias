@@ -1,17 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use Illuminate\Support\Facades\Cookie;
 use App\Http\Controllers\Controller;
-use App\Models\User;
-use App\Http\Requests;
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-
-use Carbon\Carbon;
-use Session;
-use Cookie;
+use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
@@ -139,44 +133,6 @@ class AuthController extends Controller
             Session::forget('auth_success');
             return view('auth.login');
         }
-
-        // Step 2.1 : Initialisation des variable de sessions
-        Session::put('auth_success', 'Authentification reussi.');
-        Session::forget('auth_failed');
-
-        // Step 3 : Connexion reussi - Generation du token pour les vendeur
-        $user = Auth::user();
-        $token = $user->createToken('MyApp', ['vendeur'])->accessToken; //  Vendeur toke
-
-        // Step 4 : Sauvegarde du token en session
-        Session::put('token', $token);
-
-        // Step 5 : Suppressoin des credentials en session
-        Session::forget('password');
-        Session::forget('email');
-
-
-        // if ($request->remember_me)
-        //     $token->expires_at = Carbon::now()->addWeeks(1);
-
-        //     if($token->save()){
-        //         return response()->json([
-        //             'success' => 1,
-        //             'access_token' => $tokenResult->accessToken,
-        //             'token_type' => 'Bearer',
-        //             'expires_at' => Carbon::parse(
-        //                 $tokenResult->token->expires_at
-        //             )->toDateTimeString()
-        //         ], 201);
-
-        //     }else{
-        //         return response()->json([
-        //             'success' => 0,
-        //             'message' => 'Unsucceflly save token'
-        //         ], 200);
-        //     }
-
-        // Step 4 : Mise a jour des coockies
         return $this->setCredentialsCoockies($request);
     }
 }

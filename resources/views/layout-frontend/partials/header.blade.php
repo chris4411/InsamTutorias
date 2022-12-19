@@ -7,6 +7,12 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
+                <div class="input-group app-search d-lg-block">
+                    <li class="dropdown"> <input type="text" class="form-control bg-transparent"
+                            placeholder="Search.." aria-label="Text input with dropdown button">
+                        <span class="mdi mdi-magnify"></span>
+                    </li>
+                </div>
                 <li class="dropdown"><a href="#"><span>catalogue</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{ route('courses') }}">Cours</a></li>
@@ -24,7 +30,9 @@
                         <li><a href="#">Drop Down 3</a></li>
                         <li><a href="#">Drop Down 4</a></li>
                     </ul>
+
                 </li>
+
                 <li><a href="about">A propos</a></li>
 
                 <li><a href="/contact">Contact</a></li>
@@ -33,7 +41,7 @@
         </nav><!-- .navbar -->
 
         <a href="/courses" class="get-started-btn me-3">Commencer</a>
-        <i class="bi bi-cart-plus me-3 " style="font-size: 2rem; color: rgb(104, 239, 167);"></i>
+        <i class="bi bi-cart-plus me-3 " style="font-size: 2rem; color:#3f48aa;"></i>
 
 
 

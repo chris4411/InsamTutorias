@@ -20,11 +20,5 @@ class WebUser extends Model
     {
         return $this->hasOne(Client::class);
     }
-    /**
-     * Recuperer le panier associe.
-     */
-    public function panier()
-    {
-        return $this->hasOne(Panier::class);
-    }
+
 }

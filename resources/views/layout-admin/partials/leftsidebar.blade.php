@@ -31,13 +31,13 @@
                 </li>
                 <!-- end li -->
                 <li>
-                    <a href="{{ route('employee_lazy') }}" class="has-arrow waves-effect">
+                    <a href="#" class="has-arrow waves-effect">
                         <i class="ri-mail-send-line"></i>
-                        <span>Enseignats</span>
+                        <span>Enseignants</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#">Inbox</a></li>
-                        <li><a href="#">Read Email</a></li>
+                        <li><a href="/register">creer Un nouveau</a></li>
+                        <li><a href="#">Afficher les Enseignants</a></li>
                     </ul>
                 </li>
 

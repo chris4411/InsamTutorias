@@ -25,12 +25,6 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->string('image')->default('user.png');
-            $table->enum('role', config('seed_roles.ROLE_LIST'))->default(config('seed_roles.CLIENT_ROLE'));
-            $table->softDeletes();
-            $table->string('activation_token')->nullable();
-            $table->boolean('active')->default(false);
-
         });
     }
 

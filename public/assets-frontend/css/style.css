@@ -148,7 +148,7 @@ h6 {
 }
 
 #header .logo a {
-    color: #5fcf80;
+    color: #3f48aa;
 }
 
 #header .logo img {
@@ -160,7 +160,8 @@ h6 {
 */
 .get-started-btn {
     margin-left: 22px;
-    background: #5fcf80;
+    background: #3f48aa;
+
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px;
@@ -171,7 +172,8 @@ h6 {
 }
 
 .get-started-btn:hover {
-    background: #3ac162;
+    background: #232c86;
+
     color: #fff;
 }
 
@@ -229,7 +231,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #5fcf80;
+    color: #3f48aa;
 }
 
 .navbar .dropdown ul {
@@ -266,7 +268,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #5fcf80;
+    color: #2c6187;
 }
 
 .navbar .dropdown:hover > ul {
@@ -366,7 +368,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-    color: #5fcf80;
+    color: #4668a9;
 }
 
 .navbar-mobile .getstarted,
@@ -401,7 +403,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-    color: #5fcf80;
+    color: #417489;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -469,8 +471,9 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-    background: #5fcf80;
-    border: 2px solid #5fcf80;
+    background: #3f48aa;
+
+    border: 2px solid #3f48aa;
 }
 
 @media (min-width: 1024px) {
@@ -684,7 +687,7 @@ section {
 .why-us .icon-boxes .icon-box i {
     font-size: 32px;
     padding: 18px;
-    color: #5fcf80;
+    color: #315985;
     margin-bottom: 30px;
     background: #ecf9f0;
     border-radius: 50px;
@@ -736,11 +739,11 @@ section {
 }
 
 .features .icon-box:hover {
-    border-color: #5fcf80;
+    border-color: #315985;
 }
 
 .features .icon-box:hover h3 a {
-    color: #5fcf80;
+    color: #315985;
 }
 
 /*--------------------------------------------------------------
@@ -1595,7 +1598,7 @@ section {
 
 .bubbles {
     box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
-    color: hwb(148 10% 18%);
+    color: hwb(221 40% 45%);
     margin-top: -40px;
     margin-bottom: 40px;
     font-size: 40px;
@@ -1605,7 +1608,7 @@ section {
     position: relative;
     margin-top: -20;
     animation: animate linear infinite;
-    animation-duration: calc(130s / var(--i));
+    animation-duration: calc(200s / var(--i));
 }
 
 .bubbles span::after {
@@ -1616,4 +1619,8 @@ section {
     100% {
         transform: translateY(400vh) scale(1);
     }
+}
+
+.mt {
+    margin-top: -54px;
 }

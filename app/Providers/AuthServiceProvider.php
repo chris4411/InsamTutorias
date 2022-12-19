@@ -32,9 +32,7 @@ class AuthServiceProvider extends ServiceProvider
 
         Passport::tokensCan([
             'admin' => 'Administrateur du system',
-            'vendeur' => 'Vendeur sur la platefornme',
             'cient' => 'Client de la plateforme',
-            'livreur' => 'Livreur sur la plateforme',
         ]);
     }
 }
