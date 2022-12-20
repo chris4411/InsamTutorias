@@ -19,6 +19,15 @@
                         <span>Utilisateur</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('posts_admin') }}" class="waves-effect">
+                        <i class="ri-user-5-line"></i><span
+                            class="badge rounded-pill bg-success float-end"><?php if (isset($data['clients'])) {
+                                echo count($data['clients']);
+                            } ?></span>
+                        <span>Posts</span>
+                    </a>
+                </li>
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
