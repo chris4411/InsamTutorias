@@ -156,6 +156,7 @@
 
         <!-- ======= Popular Courses Section ======= -->
         <section id="popular-courses" class="courses mt">
+
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -172,62 +173,10 @@
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active container">
+                        <div class=" active">
                             <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
-                                <div class="col-md-6 d-flex align-items-stretch">
-                                    <div class="course-item">
-                                        <video controls class="img-fluid">
-                                            <source src="assets-frontend/img/v1.mp4" type=video/mp4>
-
-                                        </video>
-                                        <div class="course-content">
-                                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                                <h4>Web Development</h4>
-                                            </div>
-
-                                            <h3><a href="course-details.html">Website Design</a></h3>
-                                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia
-                                                quae dolores
-                                                dolorem tempore.</p>
-                                            <div class="trainer d-flex justify-content-between align-items-center">
-
-                                                <div class="trainer-rank d-flex align-items-center">
-                                                    <i class="bx bx-user"></i>&nbsp;50
-                                                    &nbsp;&nbsp;
-                                                    <i class="bx bx-heart"></i>&nbsp;65
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- End Course Item-->
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                                    <div class="course-item">
-                                        <video controls class="img-fluid">
-                                            <source src="assets-frontend/img/v1.mp4" type=video/mp4>
-
-                                        </video>
-                                        <div class="course-content">
-                                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                                <h4>Web Development</h4>
-                                            </div>
-
-                                            <h3><a href="course-details.html">Website Design</a></h3>
-                                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia
-                                                quae dolores
-                                                dolorem tempore.</p>
-                                            <div class="trainer d-flex justify-content-between align-items-center">
-
-                                                <div class="trainer-rank d-flex align-items-center">
-                                                    <i class="bx bx-user"></i>&nbsp;50
-                                                    &nbsp;&nbsp;
-                                                    <i class="bx bx-heart"></i>&nbsp;65
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- End Course Item-->
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                                <div class="col-lg-2 col-md-3 d-flex align-items-stretch mt-4 mt-md-0">
                                     <div class="course-item">
                                         <video controls class="img-fluid">
                                             <source src="assets-frontend/img/v1.mp4" type=video/mp4>
@@ -254,73 +203,52 @@
                                     </div>
                                 </div> <!-- End Course Item-->
 
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                                    <div class="course-item">
-                                        <img src="assets-frontend/img/course-2.jpg" class="img-fluid" alt="...">
-                                        <div class="course-content">
-                                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                                <h4>Marketing</h4>
-                                            </div>
+                                @foreach($posts as $post)
+                                    <div class="col-lg-2 col-md-3 d-flex align-items-stretch mt-4 mt-md-0">
+                                        <div class="course-item">
+                                            <video controls class="img-fluid">
+                                                <source src="{{ $post->video_url }}" type=video/mp4>
 
-                                            <h3><a href="course-details.html">Search Engine Optimization</a></h3>
-                                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia
-                                                quae dolores
-                                                dolorem tempore.</p>
-                                            <div class="trainer d-flex justify-content-between align-items-center">
+                                            </video>
+                                            <div class="course-content">
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <h4>{{ $post->category->name }}</h4>
+                                                </div>
 
-                                                <div class="trainer-rank d-flex align-items-center">
-                                                    <i class="bx bx-user"></i>&nbsp;35
-                                                    &nbsp;&nbsp;
-                                                    <i class="bx bx-heart"></i>&nbsp;42
+                                                <h3><a href="course-details.html">{{ $post->title }}</a></h3>
+                                                <p>{{ $post->content }}</p>
+                                                <div class="trainer d-flex justify-content-between align-items-center">
+
+                                                    <div class="trainer-rank d-flex align-items-center">
+                                                        <i class="bx bx-user"></i>&nbsp;50
+                                                        &nbsp;&nbsp;
+                                                        <i class="bx bx-heart"></i>&nbsp;65
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div> <!-- End Course Item-->
-
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                                    <div class="course-item">
-                                        <img src="assets-frontend/img/course-3.jpg" class="img-fluid" alt="...">
-                                        <div class="course-content">
-                                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                                <h4>Content</h4>
-                                            </div>
-
-                                            <h3><a href="course-details.html">Copywriting</a></h3>
-                                            <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia
-                                                quae dolores
-                                                dolorem tempore.</p>
-                                            <div class="trainer d-flex justify-content-between align-items-center">
-
-                                                <div class="trainer-rank d-flex align-items-center">
-                                                    <i class="bx bx-user"></i>&nbsp;20
-                                                    &nbsp;&nbsp;
-                                                    <i class="bx bx-heart"></i>&nbsp;85
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- End Course Item-->
+                                    </div> <!-- End Course Item-->
+                                @endforeach
 
                             </div>
                         </div>
                     </div>
-
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
 
 
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
         </section><!-- End Popular Courses Section -->
         <!-- ======= About Section ======= -->
         <section id="about" class="about">

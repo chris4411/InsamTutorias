@@ -13,18 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('addresse_paiments', function (Blueprint $table) {
-            //Keys
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('compte_id');
-
-            //Attributes
-            $table->string('mode_paiment');
+            $table->string('name');
             $table->timestamps();
-
-            // Foreign key
-            $table->foreign('compte_id')->references('id')->on('comptes')->onDelete('cascade');
-
         });
     }
 
@@ -35,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('addresse_paiments');
+        Schema::dropIfExists('categories');
     }
 };

@@ -13,17 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('factures', function (Blueprint $table) {
-            //Keys
+        Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('commande_id');
-
-            //Attributes
+            $table->string('title');
+            $table->string('content');
+            $table->string('video_url');
+            $table->foreignId('category_id')->constrained()->onDelete('cascade');
             $table->timestamps();
-
-            // Foreign key
-            $table->foreign('commande_id')->references('id')->on('commandes')->onDelete('cascade');
-
         });
     }
 
@@ -34,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('factures');
+        //
     }
 };

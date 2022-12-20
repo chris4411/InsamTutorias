@@ -14,15 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Http\Controllers\Admin\SendEmailController;
 use App\Http\Controllers\User\PostController;
+use App\Http\Controllers\SiteController;
 
-Route::get('/', function () {
-    return view('site.index');
+Route::get('/', [SiteController::class, 'index']);
 
-});
 
 Route::get('/dashboard', function () {
     return view('admin.index');
 })->name('dashboard');
+
+
+Route::post('/search', 'PostController@search')->name('post.search');
 
 require __DIR__.'/auth.php';
 require __DIR__.'/admin/admin-routes.php';

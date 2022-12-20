@@ -5,10 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-//Models
-use App\Models\Boutique;
-
-class BoutiqueSeeder extends Seeder
+class PostTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,6 +14,6 @@ class BoutiqueSeeder extends Seeder
      */
     public function run()
     {
-        Boutique::factory()->count(10)->create();
+        factory(post::class, 30)->create();
     }
 }

@@ -7,7 +7,7 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <div class="input-group app-search d-lg-block">
+                <div  id="posts" class="input-group app-search d-lg-block">
                     <li class="dropdown"> <input type="text" class="form-control bg-transparent"
                             placeholder="Search.." aria-label="Text input with dropdown button">
                         <span class="mdi mdi-magnify"></span>
